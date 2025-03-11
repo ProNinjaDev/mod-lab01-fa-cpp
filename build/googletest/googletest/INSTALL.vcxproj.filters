@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\70408405b5ed634db13ca70e751e6aab\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2A10D736-7D92-3373-875B-2ED496C099EC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

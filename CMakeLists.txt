@@ -10,4 +10,7 @@ set(lib_dest "lib")
 set(include_dest "include/")
 
 add_subdirectory(src)
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+add_subdirectory("D:/Github clones/googletest" googletest)
+include_directories("D:/Github clones/googletest/googletest/include")
 add_subdirectory(test)

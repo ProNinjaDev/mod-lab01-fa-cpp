@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1760BC34-4F87-3C81-A87B-7646AAD6C92B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Github clones\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Github clones\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Github clones\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Github clones\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\527c90f0bd92e310ce7e341ba3c988f0\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\СMake\bin\cmake.exe "-SD:/Github clones/mod-lab01-fa-cpp" "-BD:/Github clones/mod-lab01-fa-cpp/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Github clones/mod-lab01-fa-cpp/build/mod-lab01-fa-cpp.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Github clones\googletest\CMakeLists.txt;D:\Github clones\googletest\googlemock\CMakeLists.txt;D:\Github clones\googletest\googlemock\cmake\gmock.pc.in;D:\Github clones\googletest\googlemock\cmake\gmock_main.pc.in;D:\Github clones\googletest\googletest\CMakeLists.txt;D:\Github clones\googletest\googletest\cmake\Config.cmake.in;D:\Github clones\googletest\googletest\cmake\gtest.pc.in;D:\Github clones\googletest\googletest\cmake\gtest_main.pc.in;D:\Github clones\googletest\googletest\cmake\internal_utils.cmake;D:\Github clones\mod-lab01-fa-cpp\CMakeLists.txt;D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CMakeCCompiler.cmake;D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CMakeCXXCompiler.cmake;D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CMakeRCCompiler.cmake;D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CMakeSystem.cmake;D:\Github clones\mod-lab01-fa-cpp\src\CMakeLists.txt;D:\Github clones\mod-lab01-fa-cpp\test\CMakeLists.txt;D:\СMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\СMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;D:\СMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;D:\СMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;D:\СMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;D:\СMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\СMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;D:\СMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;D:\СMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;D:\СMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\СMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\СMake\share\cmake-3.31\Modules\FindThreads.cmake;D:\СMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;D:\СMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;D:\СMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\СMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\СMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\СMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\src\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\googletest\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\googletest\googlemock\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\googletest\googletest\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\СMake\bin\cmake.exe "-SD:/Github clones/mod-lab01-fa-cpp" "-BD:/Github clones/mod-lab01-fa-cpp/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Github clones/mod-lab01-fa-cpp/build/mod-lab01-fa-cpp.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Github clones\googletest\CMakeLists.txt;D:\Github clones\googletest\googlemock\CMakeLists.txt;D:\Github clones\googletest\googlemock\cmake\gmock.pc.in;D:\Github clones\googletest\googlemock\cmake\gmock_main.pc.in;D:\Github clones\googletest\googletest\CMakeLists.txt;D:\Github clones\googletest\googletest\cmake\Config.cmake.in;D:\Github clones\googletest\googletest\cmake\gtest.pc.in;D:\Github clones\googletest\googletest\cmake\gtest_main.pc.in;D:\Github clones\googletest\googletest\cmake\internal_utils.cmake;D:\Github clones\mod-lab01-fa-cpp\CMakeLists.txt;D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CMakeCCompiler.cmake;D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CMakeCXXCompiler.cmake;D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CMakeRCCompiler.cmake;D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CMakeSystem.cmake;D:\Github clones\mod-lab01-fa-cpp\src\CMakeLists.txt;D:\Github clones\mod-lab01-fa-cpp\test\CMakeLists.txt;D:\СMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\СMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;D:\СMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;D:\СMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;D:\СMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;D:\СMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\СMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;D:\СMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;D:\СMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;D:\СMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\СMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\СMake\share\cmake-3.31\Modules\FindThreads.cmake;D:\СMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;D:\СMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;D:\СMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\СMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\СMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\СMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\src\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\googletest\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\googletest\googlemock\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\googletest\googletest\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\СMake\bin\cmake.exe "-SD:/Github clones/mod-lab01-fa-cpp" "-BD:/Github clones/mod-lab01-fa-cpp/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Github clones/mod-lab01-fa-cpp/build/mod-lab01-fa-cpp.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Github clones\googletest\CMakeLists.txt;D:\Github clones\googletest\googlemock\CMakeLists.txt;D:\Github clones\googletest\googlemock\cmake\gmock.pc.in;D:\Github clones\googletest\googlemock\cmake\gmock_main.pc.in;D:\Github clones\googletest\googletest\CMakeLists.txt;D:\Github clones\googletest\googletest\cmake\Config.cmake.in;D:\Github clones\googletest\googletest\cmake\gtest.pc.in;D:\Github clones\googletest\googletest\cmake\gtest_main.pc.in;D:\Github clones\googletest\googletest\cmake\internal_utils.cmake;D:\Github clones\mod-lab01-fa-cpp\CMakeLists.txt;D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CMakeCCompiler.cmake;D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CMakeCXXCompiler.cmake;D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CMakeRCCompiler.cmake;D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CMakeSystem.cmake;D:\Github clones\mod-lab01-fa-cpp\src\CMakeLists.txt;D:\Github clones\mod-lab01-fa-cpp\test\CMakeLists.txt;D:\СMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\СMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;D:\СMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;D:\СMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;D:\СMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;D:\СMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\СMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;D:\СMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;D:\СMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;D:\СMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\СMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\СMake\share\cmake-3.31\Modules\FindThreads.cmake;D:\СMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;D:\СMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;D:\СMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\СMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\СMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\СMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\src\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\googletest\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\googletest\googlemock\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\googletest\googletest\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\СMake\bin\cmake.exe "-SD:/Github clones/mod-lab01-fa-cpp" "-BD:/Github clones/mod-lab01-fa-cpp/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Github clones/mod-lab01-fa-cpp/build/mod-lab01-fa-cpp.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Github clones\googletest\CMakeLists.txt;D:\Github clones\googletest\googlemock\CMakeLists.txt;D:\Github clones\googletest\googlemock\cmake\gmock.pc.in;D:\Github clones\googletest\googlemock\cmake\gmock_main.pc.in;D:\Github clones\googletest\googletest\CMakeLists.txt;D:\Github clones\googletest\googletest\cmake\Config.cmake.in;D:\Github clones\googletest\googletest\cmake\gtest.pc.in;D:\Github clones\googletest\googletest\cmake\gtest_main.pc.in;D:\Github clones\googletest\googletest\cmake\internal_utils.cmake;D:\Github clones\mod-lab01-fa-cpp\CMakeLists.txt;D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CMakeCCompiler.cmake;D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CMakeCXXCompiler.cmake;D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CMakeRCCompiler.cmake;D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CMakeSystem.cmake;D:\Github clones\mod-lab01-fa-cpp\src\CMakeLists.txt;D:\Github clones\mod-lab01-fa-cpp\test\CMakeLists.txt;D:\СMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\СMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;D:\СMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;D:\СMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;D:\СMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;D:\СMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;D:\СMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\СMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;D:\СMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;D:\СMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;D:\СMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\СMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\СMake\share\cmake-3.31\Modules\FindThreads.cmake;D:\СMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;D:\СMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;D:\СMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\СMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\СMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\Windows.cmake;D:\СMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\СMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\src\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\googletest\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\googletest\googlemock\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\googletest\googletest\CMakeFiles\generate.stamp;D:\Github clones\mod-lab01-fa-cpp\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,10 @@
+^D:\GITHUB CLONES\MOD-LAB01-FA-CPP\BUILD\CMAKEFILES\527C90F0BD92E310CE7E341BA3C988F0\GENERATE.STAMP.RULE
+setlocal
+D:\СMake\bin\cmake.exe "-SD:/Github clones/mod-lab01-fa-cpp" "-BD:/Github clones/mod-lab01-fa-cpp/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Github clones/mod-lab01-fa-cpp/build/mod-lab01-fa-cpp.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
