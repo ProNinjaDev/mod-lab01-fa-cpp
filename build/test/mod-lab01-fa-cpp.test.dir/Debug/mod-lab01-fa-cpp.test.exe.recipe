@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Github clones\mod-lab01-fa-cpp\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\Github clones\mod-lab01-fa-cpp\build\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>D:\Github clones\mod-lab01-fa-cpp\build\test\Debug\mod-lab01-fa-cpp.test.exe</FullPath>

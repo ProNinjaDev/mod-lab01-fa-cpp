@@ -1,2 +1,2 @@
-PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.41.34120:TargetPlatformVersion=10.0.22000.0:
-Debug|x64|D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CompilerIdCXX\|
+PlatformToolSet=v143:VCToolArchitecture=Native32Bit:VCToolsVersion=14.41.34120:TargetPlatformVersion=10.0.22000.0:
+Debug|win32|D:\Github clones\mod-lab01-fa-cpp\build\CMakeFiles\3.31.6\CompilerIdCXX\|

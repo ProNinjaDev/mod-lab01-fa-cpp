@@ -1,6 +1,6 @@
 ^D:\GITHUB CLONES\GOOGLETEST\GOOGLEMOCK\CMAKELISTS.TXT
 setlocal
-D:\СMake\bin\cmake.exe "-SD:/Github clones/mod-lab01-fa-cpp" "-BD:/Github clones/mod-lab01-fa-cpp/build" --check-stamp-file "D:/Github clones/mod-lab01-fa-cpp/build/googletest/googlemock/CMakeFiles/generate.stamp"
+D:\CMake\bin\cmake.exe "-SD:/Github clones/mod-lab01-fa-cpp" "-BD:/Github clones/mod-lab01-fa-cpp/build" --check-stamp-file "D:/Github clones/mod-lab01-fa-cpp/build/googletest/googlemock/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
